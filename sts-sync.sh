@@ -15,7 +15,7 @@ if [ -z "$(adb devices | grep -w 'device')" ]; then
     exit 1
 fi
 
-if [ ! -d "$PC_BASE_DIR" ]; then
+if [ ! -d "$PC_DIR" ]; then
     echo "Ошибка: Slay The Spire folder not found ($PC_DIR)"
     exit 1
 fi
