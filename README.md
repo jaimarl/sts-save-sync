@@ -4,7 +4,7 @@ A **Bash script** designed to synchronize your *Slay The Spire* progress (prefer
 
 ---
 
-## 🛠 Prerequisites
+## 🛠️ Prerequisites
 
 * **ADB (Android Debug Bridge):** Must be installed on your PC.
 * **USB Debugging:** Enabled in **Developer Options** on your Android device.
@@ -44,15 +44,12 @@ Before every transfer, the script automatically creates a **local backup** on th
 Run the script from your terminal with one of the following arguments:
 
 1. Syncing Data
-
-| Command | Action |
-| --- | --- |
-| `./sts-sync.sh to_pc` | **Pulls** saves from your Phone and moves them to your PC. |
-| `./sts-sync.sh to_phone` | **Pushes** saves from your PC to your Phone. |
+* `./sts-sync.sh to_pc`: **Pulls** saves from your Phone and moves them to your PC.
+* `./sts-sync.sh to_phone`: **Pushes** saves from your PC to your Phone.
 
 2. Restoring from Backup
 
-If something goes wrong during a transfer, you can restore the previous state:
+    If something goes wrong during a transfer, you can restore the previous state:
 
 * `./sts-sync.sh restore pc`: Restores the PC save files from the `sync_backup` folder.
 * `./sts-sync.sh restore phone`: Restores the Android save files from the internal `sync_backup` folder.
