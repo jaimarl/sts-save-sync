@@ -48,9 +48,6 @@ Run the script from your terminal with one of the following arguments:
 * `./sts-sync.sh to_phone`: **Pushes** saves from your PC to your Phone.
 
 2. Restoring from Backup
-
-    If something goes wrong during a transfer, you can restore the previous state:
-
 * `./sts-sync.sh restore pc`: Restores the PC save files from the `sync_backup` folder.
 * `./sts-sync.sh restore phone`: Restores the Android save files from the internal `sync_backup` folder.
 
