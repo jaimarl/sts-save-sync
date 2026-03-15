@@ -16,11 +16,12 @@ A **Bash script** designed to synchronize your *Slay The Spire* progress (prefer
 
 To ensure that the script can successfully transfer saves from your PC to your phone, you must follow these steps exactly if the game is already installed:
 
-1. **Uninstall** *Slay The Spire* from your Android device.
-2. **Reinstall** the game from the Play Store.
-3. **Launch** the game.
-4. **Close** the game immediately after the developer logo appears.
-5. Now you can run the `to_phone` command.
+1. **Transfer** your save files from phone to PC using this script.
+2. **Uninstall** *Slay The Spire* from your Android device.
+3. **Reinstall** the game from the Play Store.
+4. **Launch** the game.
+5. **Close** the game immediately after the developer logo appears.
+6. Now you can run the `to_phone` command.
 
 > [!Important]
 > Without this, save files will not be transferred due to how Android handles app data permissions.
